@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @description:
  */
 @SpringBootApplication
-@ComponentScan("com.course.server")
+@ComponentScan("com.course")
 public class Application {
 
     public static void main(String[] args) {
