@@ -25,6 +25,6 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("我的接口文档").contact(new Contact("huangxiang", "", "hxhomemail@163.com")).description("这是swaggerui生成的接口文档").version("1.0.0").build();
+        return new ApiInfoBuilder().title("接口文档").contact(new Contact("huangxiang", "", "hxhomemail@163.com")).description("SwaggerUi接口文档").version("1.0.0").build();
     }
 }
